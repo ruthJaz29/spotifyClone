@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge">Install App<i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i></button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>Trending Songs</h2>
+                <a href="#">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="trend2.jpeg" class="card-img">
+                    <p class="card-title">My Jesus</p>
+                    <p class="card-info">Anne Wilson</p>
+                </div>
+                <div class="cards">
+                    <img src="trend3.jpeg" class="card-img">
+                    <p class="card-title">Burn the Ship</p>
+                    <p class="card-info">For King & Country</p>
+                </div>
+                <div class="cards">
+                    <img src="trend4.jpeg" class="card-img">
+                    <p class="card-title">God's Not Done With You</p>
+                    <p class="card-info">Tauren Wells</p>
+                </div>
+                <div class="cards">
+                    <img src="trend5.jpeg" class="card-img">
+                    <p class="card-title">You Say</p>
+                    <p class="card-info">Lauren Daigle</p>
+                </div>
+                <div class="cards">
+                    <img src="trend6.jpeg" class="card-img">
+                    <p class="card-title">Before You Ask Her</p>
+                    <p class="card-info">Matt West</p>
+                </div>
+                <div class="cards">
+                    <img src="trend1.jpeg" class="card-img">
+                    <p class="card-title">Saved</p>
+                    <p class="card-info">Joseph o'Brein</p>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>Popular Artists</h2>
+                <a href="#">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="cards-art">
+                    <img src="card4img.jpeg" class="card-img-art">
+                    <p class="card-title">Chris Tomlin
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+                <div class="cards-art">
+                    <img src="card3img.jpeg" class="card-img-art">
+                    <p class="card-title">Casting Crowns
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+                <div class="cards-art">
+                    <img src="card2img.jpeg" class="card-img-art">
+                    <p class="card-title">Vihan Damaris
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+                <div class="cards-art">
+                    <img src="art6.jpeg" class="card-img-art">
+                    <p class="card-title">Tauren Wells
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+                <div class="cards-art">
+                    <img src="art4.jpeg" class="card-img-art">
+                    <p class="card-title">Daniel 5
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+                <div class="cards-art">
+                    <img src="art5.jpeg" class="card-img-art">
+                    <p class="card-title">Gaither Vocal Band
+                    <div class="playbtn-art">
+                        <svg viewBox="0 0 24 24" fill="black" width="50" height="50">
+                            <path d="M6 4l15 8-15 8z"></path>
+                        </svg>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>Featured Charts</h2>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 Gobal</p>
+                    <p class="card-info">Your daily update of the most played tracks</p>
+                </div>
+                <div class="cards">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs Gobal</p>
+                    <p class="card-info">Your weekly update of the most played tracks gobally</p>
+                </div>
+                <div class="cards">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your weekly update of the most played tracks in India.</p>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>Popular Singles & Albums</h2>
+                <a href="#">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="pop1.jpeg" class="card-img">
+                    <p class="card-title">Together</p>
+                    <p class="card-info">For King & Country, Kirk Franklin</p>
+                </div>
+                <div class="cards">
+                    <img src="pop2.jpeg" class="card-img">
+                    <p class="card-title">Joy in the Morning</p>
+                    <p class="card-info">Tauren Wells</p>
+                </div>
+                <div class="cards">
+                    <img src="pop3.jpeg" class="card-img">
+                    <p class="card-title">In Jesus Name</p>
+                    <p class="card-info">Kathy Nicole</p>
+                </div>
+                <div class="cards">
+                    <img src="pop4.jpeg" class="card-img">
+                    <p class="card-title">Fearless</p>
+                    <p class="card-info">Jasmine Murray</p>
+                </div>
+                <div class="cards">
+                    <img src="pop5.jpeg" class="card-img">
+                    <p class="card-title">Holy Forever</p>
+                    <p class="card-info">Chris Tomlin</p>
+                </div>
+                <div class="cards">
+                    <img src="pop6.jpeg" class="card-img">
+                    <p class="card-title">Sunday is Coming</p>
+                    <p class="card-info">Phil Wickham</p>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>Popular Radio</h2>
+                <a href="#">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="radio1.jpeg" class="card-img">
+                    <p class="card-info">Matt Redmann</p>
+                </div>
+                <div class="cards">
+                    <img src="radio2.jpg" class="card-img">
+                    <p class="card-info">Unspoken</p>
+                </div>
+                <div class="cards">
+                    <img src="radio3.jpeg" class="card-img">
+                    <p class="card-info">Joseph o'Brein</p>
+                </div>
+                <div class="cards">
+                    <img src="radio5.jpeg" class="card-img">
+                    <p class="card-info">Petra,Newsboys...</p>
+                </div>
+                <div class="cards">
+                    <img src="radio6.jpeg" class="card-img">
+                    <p class="card-info">Gaithers, Collings...</p>
+                </div>
+                <div class="cards">
+                    <img src="radio7.jpeg" class="card-img">
+                    <p class="card-info">Praise God!!</p>
+                </div>
+            </div>
+            <div class="cTopic">
+                <h2>India's Best</h2>
+                <a href="#">Show all</a>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <img src="ind.jpeg" class="card-img">
+                    <p class="card-title">Thonga Iravugal</p>
+                    <p class="card-info">Giftson Durai</p>
+                </div>
+                <div class="cards">
+                    <img src="ind2.jpeg" class="card-img">
+                    <p class="card-title">En Nesar</p>
+                    <p class="card-info">Praselin Stephen</p>
+                </div>
+                <div class="cards">
+                    <img src="ind3.jpeg" class="card-img">
+                    <p class="card-title">Inai Yaru<br></p>
+                    <p class="card-info">TriplA</p>
+                </div>
+                <div class="cards">
+                    <img src="ind4.jpeg" class="card-img">
+                    <p class="card-title">Chattan</p>
+                    <p class="card-info">Bridge Music</p>
+                </div>
+                <div class="cards">
+                    <img src="ind5.jpeg" class="card-img">
+                    <p class="card-title">Naan Oru Pavi</p>
+                    <p class="card-info">Ravi Bharat</p>
+                </div>
+                <div class="cards">
+                    <img src="ind6.jpeg" class="card-img">
+                    <p class="card-title">Malaigal</p>
+                    <p class="card-info">Lucas Sekhar</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="mus-player">
+            <div class="album">
+                <img src="playing.jpeg" class="abm-img">
+                <div class="abm-det">
+                    <a href="#" class="abm-song">Grace</a>
+                    <br />
+                    <a href="#" class="abm-art">Laura Story</a>
+                </div>
+                <!-- Heart Button -->
+                <button class="heart-btn" onclick="toggleHeart(this)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
+               2 6 4 4 6.5 4c1.74 0 3.41 1.01 4.5 2.09 
+               C12.09 5.01 13.76 4 15.5 4 
+               18 4 20 6 20 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#fff" stroke-width="2" />
+                    </svg>
+                </button>
+
+            </div>
+            <div class="player">
+                <div class="play-ctrl">
+                    <img src="player_icon1.png" class="play-ctrl-icons">
+                    <img src="player_icon2.png" class="play-ctrl-icons">
+                    <img src="player_icon3.png" class="play-ctrl-icons" style="opacity: 1; height: 3rem; width: 3rem;">
+                    <img src="player_icon4.png" class="play-ctrl-icons">
+                    <img src="player_icon5.png" class="play-ctrl-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">0.00</span>
+                    <input type="range" min="0" max="100" step="1" class="prog-bar">
+                    <span class="tot-time">3.33</span>
+                </div>
+            </div>
+            <div class="ctrl">
+                <div class="ctrl-icons">
+                    <img src="mic.jpeg" class="ctrl-icons-img" style="opacity: 0.9; height: 3.5rem; width: 3.5rem;">
+                    <img src="queue.png" class="ctrl-icons-img">
+                    <img src="connect.png" class="ctrl-icons-img">
+                    <img src="volume.jpeg" class="ctrl-icons-img" style="padding-left: 0;">
+                    <input type="range" min="0" max="100" step="10" class="vol hide1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
